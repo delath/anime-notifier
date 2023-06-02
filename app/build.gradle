@@ -47,6 +47,29 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.9.0'
     implementation 'com.google.code.gson:gson:2.8.9'
 
+    implementation("androidx.room:room-runtime:2.5.1")
+    annotationProcessor("androidx.room:room-compiler:2.5.1")
+
+    // optional - Kotlin Extensions and Coroutines support for Room
+    implementation("androidx.room:room-ktx:2.5.1")
+
+    // optional - RxJava2 support for Room
+    implementation("androidx.room:room-rxjava2:2.5.1")
+
+    // optional - RxJava3 support for Room
+    implementation("androidx.room:room-rxjava3:2.5.1")
+
+    // optional - Guava support for Room, including Optional and ListenableFuture
+    implementation("androidx.room:room-guava:2.5.1")
+
+    // optional - Test helpers
+    testImplementation("androidx.room:room-testing:2.5.1")
+
+    // optional - Paging 3 Integration
+    implementation("androidx.room:room-paging:2.5.1")
+
+
+
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
