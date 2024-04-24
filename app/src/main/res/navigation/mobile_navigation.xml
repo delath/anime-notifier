@@ -6,20 +6,20 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="eu.delath.animenotifier.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_all"
+        android:name="eu.delath.animenotifier.ui.all.AllFragment"
+        android:label="@string/menu_all"
+        tools:layout="@layout/fragment_all" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="eu.delath.animenotifier.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_subscribed"
+        android:name="eu.delath.animenotifier.ui.subscribed.SubscribedFragment"
+        android:label="@string/menu_subscribed"
+        tools:layout="@layout/fragment_subscribed" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="eu.delath.animenotifier.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_statistics"
+        android:name="eu.delath.animenotifier.ui.statistics.StatisticsFragment"
+        android:label="@string/menu_statistics"
+        tools:layout="@layout/fragment_statistics" />
 </navigation>
